@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acceuil</title>
+	<meta charset="utf-8">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="acceuil.css">
+	<link rel="stylesheet" type="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+	<script type="text/javascript"src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+	<header></header>
+	<a href="acceuil.html"><img src="assets/Noir.png" class="logo"></a>
+	<div id="contenu">
+		<div class="t2">
+			<ul class="onglets">
+<a href="acceuil.html" target="_blank"><li class="li1">Accueil</li></a><!--
+--><a href="chambre.html" target="_blank"><li class="li1">Chambres</li></a><!--
+--><a href="service.html" target="_blank"><li class="li1">Services</li></a><!--
+--><a href="activite.html" target="_blank"><li class="li1">Activités touristiques</li></a><!--
+--><a href="Nous-Contactez.html" target="_blank"><li class="li1" id="li4">Contactez nous</li></a>
+</ul>
+</div>
+</div>
+<a href="acceuil.html"><li class="li2"><img src="assets\fr.png" class="fr"></li></a>
+<a href="acceuilen.html"><li class="li3"><img src="assets\en.png" class="en"></li></a>
+<div class="block">
+	<div class="search-form">
+		<!-- Formulaire de recherche -->
+		<form method="post">                    
+			<div class="form-group">
+				<label for="depart">Date de départ :</label>
+				<input type="date" name="depart" id="depart" required>
+				<label for="retour">Date de Retour :</label>
+				<input type="date" name="retour" id="retour" required>
+			</div>
+			<div class="form-group">
+				<label for="adultes">Nombre d'adultes :</label>
+				<select name="adultes" id="adultes">
+					<option selected="selected">0 Adulte</option>
+					<option required>1 Adulte</option>
+					<option>2 Adultes</option>
+					<option>3 Adultes</option>
+					<option>4 Adultes</option>
+					<option>5 Adultes</option>
+				</select>
+				<label for="enfants">Nombre d'enfants :</label>
+				<select name="enfants" id="enfants">
+					<option selected="selected">0 Enfant</option>
+					<option>1 Enfant</option>
+					<option>2 Enfants</option>
+					<option>3 Enfants</option>
+					<option>4 Enfants</option>
+					<option>5 Enfants</option>
+				</select>
+				<label for="type">Catégorie de chambre :</label>
+				<select name="type" id="type">
+					<option>Suite</option>
+					<option>Suite de luxe</option>
+					<option>Chambre twin </option>
+					<option>Chambre</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="emailAddress">Votre adresse email :</label><br>
+				<input id="emailAddress" type="email" size="21" maxLength="64" required
+				placeholder="f.fibonaccihotel@gmail.com"
+				title="Merci de fournir uniquement une adresse mail valide">
+				<label for="telNo">Numéro de téléphone:</label>
+				<input id="telNo" name="telNo" type="tel" placeholder="06 11 22 33 44" required 
+				pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"
+				size="14" minlength="14" maxlength="14"
+				placeholder="06 11 22 33 44"><br>
+			</div>
+			<div class="form-group2">
+				<label for="message">Requête :</label><br>
+				<textarea id="message" cols="80" rows="8"
+				placeholder="Avez-vous des questions ?"></textarea>
+			</div>
+			<span class="validity"></span>
+			<div class="button-submit">
+				<input type="submit" value="Lancer la recherche" name="recherche" id="recherche">
+			</div>
+		</div>
+	</form>
+</div>
+<div class="description">
+	<h3 class="blabla">Historique de l’hôtel</h3>
+	<p class="blabla2">L’hôtel Fibonacci fait partie du groupe Fibonacci. Ce groupe fait partie des plus grands hôtels français. Le groupe Fibonacci est un groupe familial qui, en construisant des complexes un peu partout en France, a su se faire une place parmi les grands noms de l’hôtellerie tel que le groupe Accor. La maison mère du groupe Fibonacci se situe en Corse, et a été fondé par Francesco Fibonacci.<br>
+		Ce complexe, basé à Ajaccio en Corse, et aussi appelé « Le Bonaparte ». Il a été construit à la fin des années 80 aux alentours de la ville avec vue sur la mer. Dans les années 2000, l’hôtel a subi une grosse période de travaux.<br>
+		Aujourd’hui, l’hôtel compte 90 chambres et suites, réparties sur 50 suites et 40 chambres, une grande salle de restauration, une piscine principale et un spa.<br>
+		Le PDG, Mr Fibonacci, souhaite utiliser l’hôtel comme un moyen de location, et de ne pas faire de l’hôtel un lieu totalement clos. La possibilité de louer pour un évènement exceptionnel est possible<br></p>
+		<h3 class="blabla">Coordonnées et Activités Touristiques</h3>
+		<p class="blabla2">Notre hôtel est situé à 15km de la gare d’Ajaccio, à 50 km de l’aéroport et à 2h de Bastia.
+			L’hôtel dispose de plusieurs activités touristiques aux alentours. Il est possible d’effectuer des prêts de vélo et/ou de trottinettes pour visiter ou faire du shopping dans la ville.<br>
+			Un parcours de randonnée GR20 est disponible (plus d’infos sur « https://www.couleur-corse.com/Le-GR-20_r39.html »). 
+			La possibilité d’effectuer un baptême de l’air en ULM, pour les fans de sensations fortes et pour une expérience inédite.
+		Le Golfe du Maquis, situé aux alentours de l’hôtel, est un excellent endroit pour les fans de paysage, pour des photos souvenirs de grandes qualités.</p>
+	</div>
+	<!--<p class="jk"><span class="tr">••</span>▲<span class="tr">••</span><br>▲<span class="tr">•</span>▲</p>-->
+	<footer class="fdiv">
+		<div class="fdiv1">
+			<a href="#" class="cgv">Conditions d'utilisations</a>
+		</div>
+		<div class="sclass">
+			<h2 class="centre">Contacts :</h2>
+			<h4><img src="assets\loc.png" class="loc"><a href="https://www.google.com/maps/place/Pointe+de+la+Corba/@41.90758,8.610221,18z/data=!4m5!3m4!1s0x12da5d840f36dd27:0x4365397478f91ea7!8m2!3d41.9076!4d8.610197?hl=en" target="_blank" class="loca">
+			Pointe de la Corba - 20000 Ajaccio
+			</a></h4>
+			<h4><img src="assets\ar.png" class="icon"><a href="mailto:f.fibonaccihotel@gmail.com" class="mail">
+			f.fibonaccihotel@gmail.com</a></h4>
+			<h4><img src="assets\ph.png" class="icon">01-23-45-67-89</h4>
+			<h6 class="copyright">Tous droits réservés - Hôtel Fibonacci &copy; 2021</h6>
+		</div>
+		<div class="fdiv3">
+			<div class="container">
+  				<div class="button">Réseaux sociaux</div>
+  					<div class="social twitter"><a href="https://twitter.com/FibonacciFranc1" target="_blank">
+    				<i class="fa fa-twitter"></i></a>
+				</div>
+  				<div class="social facebook"><a href="https://www.facebook.com/francesco.fibonacci/" target="_blank">
+    				<i class="fa fa-facebook"></i></a>
+				</div>
+  				<div class="social youtube"><a href="https://www.youtube.com/channel/UCOPb96ZpGC0SJi67R6KTWsQ" target="_blank">
+    			<i class="fa fa-youtube"></i></a>
+  				</div>
+			</div>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+      <feBlend in="SourceGraphic" in2="goo" />
+  </filter>
+  </defs>
+</svg>
+		</div>
+	</footer>
+</body>
+</html>
+<script type="text/javascript">
+$(".button").click(function(){
+
+  $(".social.twitter").toggleClass("clicked");
+
+  $(".social.facebook").toggleClass("clicked");
+
+ $(".social.google").toggleClass("clicked");
+ 
+  $(".social.youtube").toggleClass("clicked");
+})
+</script>
