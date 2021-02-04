@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial;
+  margin: 0;
+  text-align: left;
+}
+
+.corps_legal {
+  max-width: 80%;
+}

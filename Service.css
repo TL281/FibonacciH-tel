@@ -52,6 +52,10 @@ header{
 .onglets{
 	padding:0px;
 }
+.li1:hover{
+	background-color:#80808042;
+}
+
 .t2 .onglets .li1{
 	display:inline-block;
 	padding:10px 62px;/*régler les taille des onglets*/

@@ -32,6 +32,9 @@ header{
 	border-right:1px;
 	color: black;
 }
+.li1:hover{
+	background-color:#80808042;
+}
 #li4{
 	border-color:solid #000000;
 	border-style:solid;
