@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nous Contacter</title>
+	<title>Contact us</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="Nous-Contactez.css">
 	</head>
 	<body>
-		<header></header>
-		<img src="assets/Noir.png" class="logo">
-		<div id="contenu">
-			<div class="t2">
-				<ul class="onglets">
-   <a href="acceuil.html" target="_blank"><li class="li1">Accueil</li></a><!--
---><a href="chambre.html" target="_blank"><li class="li1">Chambre</li></a><!--
---><a href="service.html" target="_blank"><li class="li1">Service</li></a><!--
---><a href="activite.html" target="_blank"><li class="li1">Activité touristique</li></a><!--
---><a href="Nous-Contactez.html" target="_blank"><li class="li1" id="li4">Contactez nous</li></a>
-<a href="Nous-Contactez.html"><li class="li2"><img src="assets\fr.png" class="fr"></li></a>
-<a href="Nous-Contactezen.html"><li class="li3"><img src="assets\en.png" class="en"></li></a>
-</ul>
-</div>
+		<header>
+	<a href="acceuilen.html"><img src="assets/Noir.png" class="logo"></a>
+	<a href="Nous-Contactez.html"><li class="li2"><img src="assets\fr.png" class="fr"></li></a>
+	<a href="Nous-Contactezen.html"><li class="li3"><img src="assets\en.png" class="en"></li></a>
+</header>
+<div id="contenu">
+	<div class="t2">
+		<ul class="onglets">
+			<a href="acceuilen.html"><li class="li1">Home</li></a><!--
+		--><a href="chambreen.html"><li class="li1">Rooms</li></a><!--
+		--><a href="serviceen.html"><li class="li1">Service</li></a><!--
+		--><a href="activiteen.html"><li class="li1">Touristic activity</li></a><!--
+		--><a href="Nous-Contactezen.html"><li class="li1" id="li4">Contact us</li></a>
+		</ul>
+	</div>
 </div>
 <div class="container">
   <form>
 
-    <label for="fname">Prénom</label>
-    <input type="text" id="fname" name="firstname" placeholder="Prénom :" required>
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name :" required>
 
-    <label for="lname">Nom</label>
-    <input type="text" id="lname" name="lastname" placeholder="Nom :" required>
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name :" required>
 
     <div class="form-group">
-    <label for="telNo">Numéro de téléphone:</label>
+    <label for="telNo">Phone number:</label>
 	<input id="telNo" name="telNo" type="text" placeholder="06 11 22 33 44" required 
 	pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"
 	size="14" minlength="14" maxlength="14"
 	placeholder="06 11 22 33 44">
 	</div>
 
-    <label for="subject">Subject</label>
+    <label for="subject">Request</label>
     <textarea id="subject" name="subject" placeholder="Veuillez renseigner votre requête." required></textarea>
 
     <input type="submit" value="Submit">
@@ -58,7 +59,7 @@
 		</div>
 		<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 	</div>
-	<br>
-	<h6 class="copyright">Tous droits réservés - Hôtel Fibonacci &copy; 2021</h6>
+	<br/>
+	<h6 class="copyright">All right reserved - Hôtel Fibonacci &copy; 2021</h6>
 </body>
 </html>

@@ -124,6 +124,18 @@ a li{
 	font-size:2em;
 	color:gold;
 }
+#titre{
+	color:#ffc7a6;
+}
+#titree{
+	color:#68a62b;
+}
+#titreee{
+	color:#95ffff;
+}
+#titreeee{
+	color:#ee753c;
+}
 .sct{
 	justify-content:space-between;
 	align-items:center;
@@ -236,6 +248,7 @@ footer a.cgv {
   font-size: 1.2em;
   cursor: pointer;
   letter-spacing: 0.07em;
+  text-decoration:none;
 }
 .portfolio-experiment a .text {
   font-family: proxima-nova, monospace;
@@ -250,13 +263,25 @@ footer a.cgv {
   left: calc(0.7em * 1.2);
   right: calc(0.7em * 1.2);
   height: 3px;
-  background: #f26522;
+  background: #0000;
   transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
   transform-origin: left;
 }
 .portfolio-experiment .line {
   position: absolute;
   background: #f26522;
+}
+#line{
+	background:#ffc7a6;
+}
+#linee{
+	background:#68a62b;
+}
+#lineee{
+	background:#95ffff;
+}
+#lineeee{
+	background:#ee753c;
 }
 .portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
   width: 3px;
