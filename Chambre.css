@@ -26,6 +26,10 @@
 	#sidebar-droite{
 		width :100%;
 	}
+}
+@font-face {
+	font-family: "ChampagneLimousinesBold";
+	src: url('fond/ChampagneLimousinesBold.ttf');
 }	
 body{
 	overflow-x:hidden;
@@ -48,8 +52,8 @@ header{
 .t2{
 	text-align:center;
 }
-.li1:hover{
-	background-color:#80808042;
+.onglets {
+	padding: 0px;
 }
 .t2 .onglets .li1{
 	display:inline-block;
@@ -61,6 +65,9 @@ header{
 	border-style:solid;
 	border-width:2px;
 	border-right:1px;
+}
+.li1:hover{
+    background-color:#80808042;
 }
 #li4{
 	border-color:solid #000000;
@@ -135,21 +142,26 @@ footer {
 	margin: 0 auto;
 	font-weight: 600;
 	border-style:solid;
-	border-width:1px;
+	border-width:3px;
 	width: 1305px;
+	color: #ab890d;
+}
+.jk{
+	font-size:200px;
+}
+.tr{
+	color:white;
 }
 .fdiv{
-	background-color:darkgrey;
+	background-color:black;
 }
 .fdiv1{
 	padding:85px 100px;
-	border-style:solid;
 	border-width:0 1px 0 0;
 }
 .fdiv3{
-	border-style:solid;
 	border-width:0 0 0 1px;
-	padding:53.25px 100px;
+	width:375px;
 }
 .reseau{
 	max-height:40px;
@@ -164,21 +176,99 @@ footer {
 }
 footer a.cgv {
 	text-decoration: none;
-	color: black;
+	color: #ab890d;
 }
 .centre{
 	text-align:center;
-	margin:0;
+	color: #ab890d;
 }
 .copyright{
-	text-align:center;
-	margin-bottom:-20px;
+    text-align: center;
+    margin-top: 0px;
+    color: black;
 }
 .loca{
     text-decoration:none;
-    color:black;
+    color: #ab890d;
 }
 .mail{
 	text-decoration: none;
-	color: black;
+	color: #ab890d;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: url("#goo");
+  width: 368px;
+  height: 8px;
+  margin-top: 0px;
+  margin-bottom: -135px;
+}
+
+.button {
+	z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    background: linear-gradient(45deg, black, #ab890d);
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;}
+
+.social {
+  opacity: 0;
+  position: relative;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-block;
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+}
+.social i {
+  margin-top: 10px;
+}
+.social a {
+  color: #FFF;
+}
+
+.twitter {
+  background: #00aced;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.youtube {
+  background: #bb0000;
+}
+
+.clicked {
+  opacity: 1;
+  transition: 1.2s all ease;
+  transform: translateY(56px);
+}
+.img {
+  max-height: 20px;
+}
+.sclass{
+	border-right-width:1px;
+	border-right-style:solid;
+	border-left-width:1px;
+	border-left-style:solid;
+	padding-right:150px;
+	padding-left:150px;
+	padding-top:8px;
+}
+#rs{
+	color: white;
 }

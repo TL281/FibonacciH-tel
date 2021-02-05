@@ -26,6 +26,10 @@
 	#sidebar-droite{
 		width :100%;
 	}
+}
+@font-face {
+	font-family: "ChampagneLimousinesBold";
+	src: url('fond/ChampagneLimousinesBold.ttf');
 }	
 body{
 	overflow-x:hidden;
@@ -48,8 +52,8 @@ header{
 .t2{
 	text-align:center;
 }
-.li1:hover{
-	background-color:#80808042;
+.onglets {
+	padding: 0px;
 }
 .t2 .onglets .li1{
 	display:inline-block;
@@ -61,6 +65,9 @@ header{
 	border-style:solid;
 	border-width:2px;
 	border-right:1px;
+}
+.li1:hover{
+    background-color:#80808042;
 }
 #li4{
 	border-color:solid #000000;
@@ -96,10 +103,12 @@ a li{
 	font-weight:700;
 	font-size:1.5em;
 	text-decoration:underline;
+	font-family: "ChampagneLimousinesBold";
 }
 .blabla2{
 	text-align:justify;
 	font-size:1em;
+	font-family: "ChampagneLimousinesBold";
 }
 .description {
 	width: 800px;
@@ -119,14 +128,14 @@ form {
 	transform: translateY(75px);
 }
 .form-group {
-	color:#dadaeb;
+	color: beige;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	margin: 10px;
 }
 .form-group2 {
-	color:#dadaeb;
+	color: beige;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -146,7 +155,7 @@ form {
 	padding: 5px;
 	background-color: #515151de;
 	border-radius: 25px;
-	color: white;
+	color: #f5f5dc52;
 }
 .form-group label {
 	margin: 5px;
@@ -158,7 +167,7 @@ form {
 .button-submit input {
 	background-color: #373737;
 	border: none;
-	color: #DBDBD9;
+	color: beige;
 	font-size: 25px;
 	margin-top: 15px;
 }
@@ -168,7 +177,7 @@ form {
 	align-items: center;
 }
 ::placeholder{
-	color: white;
+	color: #f5f5dc52;
 }
 footer {
 	display: flex;
@@ -177,8 +186,9 @@ footer {
 	margin: 0 auto;
 	font-weight: 600;
 	border-style:solid;
-	border-width:1px;
+	border-width:3px;
 	width: 1305px;
+	color: #ab890d;
 }
 .jk{
 	font-size:200px;
@@ -187,7 +197,7 @@ footer {
 	color:white;
 }
 .fdiv{
-	background-color:darkgrey;
+	background-color:black;
 }
 .fdiv1{
 	padding:85px 100px;
@@ -210,25 +220,24 @@ footer {
 }
 footer a.cgv {
 	text-decoration: none;
-	color: black;
+	color: #ab890d;
 }
 .centre{
 	text-align:center;
+	color: #ab890d;
 }
 .copyright{
-	text-align:center;
-	margin-bottom:-20px;
+    text-align: center;
+    margin-top: 0px;
+    color: black;
 }
 .loca{
     text-decoration:none;
-    color:black;
-}
-.onglets {
-	padding: 0px;
+    color: #ab890d;
 }
 .mail{
 	text-decoration: none;
-	color: black;
+	color: #ab890d;
 }
 .container {
   display: flex;
@@ -242,20 +251,19 @@ footer a.cgv {
 }
 
 .button {
-  z-index: 99;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 40px;
-  background: linear-gradient(45deg, #B388EB, #8093F1);
-  border-radius: 20px;
-  color: #FFF;
-  font-size: 20px;
-  letter-spacing: 1px;
-  font-weight: 200;
-}
+	z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    background: linear-gradient(45deg, black, #ab890d);
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;}
 
 .social {
   opacity: 0;
@@ -304,4 +312,7 @@ footer a.cgv {
 	padding-right:150px;
 	padding-left:150px;
 	padding-top:8px;
+}
+#rs{
+	color: white;
 }
